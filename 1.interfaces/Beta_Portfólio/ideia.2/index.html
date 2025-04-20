@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>Bem-vindo ao meu Portfólio</h1>
+      <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <figure>
+          <img src="https://via.placeholder.com/150" alt="Minha foto de perfil" class="perfil">
+          <figcaption>Este sou eu!</figcaption>
+        </figure>
+        <p>Me chamo Ângelo Finassi. Sempre gostei de tecnologia e de mexer com computador. Comecei com Arduino e hoje estudo programação e cibersegurança.</p>
+      </section>
+
+      <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+          <li><i class="fas fa-code"></i> HTML, CSS, JavaScript</li>
+          <li><i class="fas fa-server"></i> Python, Django</li>
+          <li><i class="fas fa-microchip"></i> C++ e Arduino</li>
+          <li><i class="fas fa-terminal"></i> Linux (Arch)</li>
+          <li><i class="fas fa-shield-alt"></i> Cibersegurança (Pentest)</li>
+        </ul>
+        <ol>
+          <li>Aprender novas tecnologias</li>
+          <li>Praticar com projetos</li>
+          <li>Contribuir em open source</li>
+        </ol>
+      </section>
+
+      <section id="projetos">
+        <h2>Projetos</h2>
+        <article class="projeto">
+          <h3>Projeto 1</h3>
+          <p>Projeto com Django e front-end responsivo.</p>
+        </article>
+        <article class="projeto">
+          <h3>Projeto 2</h3>
+          <p>Arduino com sensores, motor e C++.</p>
+        </article>
+
+        <aside>
+          <h4>Ferramentas usadas</h4>
+          <table>
+            <tr>
+              <th>Projeto</th>
+              <th>Tecnologia</th>
+            </tr>
+            <tr>
+              <td>Projeto 1</td>
+              <td>Django, HTML, CSS</td>
+            </tr>
+            <tr>
+              <td>Projeto 2</td>
+              <td>Arduino, C++, IDE</td>
+            </tr>
+          </table>
+        </aside>
+      </section>
+
+      <section id="contato">
+        <h2>Contato</h2>
+        <p>Email: <a href="mailto:finassiangelo@gmail.com">finassiangelo@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/seu-usuario" target="_blank">github.com/seu-usuario</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/seu-perfil" target="_blank">linkedin.com/in/seu-perfil</a></p>
+
+        <form>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required />
+
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Ângelo Finassi. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>
